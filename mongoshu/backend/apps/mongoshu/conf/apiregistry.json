@@ -1,0 +1,3 @@
+{
+"/apis/agenda" :"/apis/agenda.js?needsToken=false&addsToken=sub:access"
+}
