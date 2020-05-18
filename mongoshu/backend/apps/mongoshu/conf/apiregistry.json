@@ -1,3 +1,4 @@
 {
-"/apis/agenda" :"/apis/agenda.js?needsToken=false&addsToken=sub:access"
+"/apis/agenda" :"/apis/agenda.js?get=true&needsToken=false&addsToken=sub:access",
+"/apis/modify" :"/apis/modify-agenda.js?get=false&needsToken=false&addsToken=sub:access"
 }

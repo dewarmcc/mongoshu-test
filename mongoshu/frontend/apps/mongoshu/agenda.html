@@ -7,11 +7,28 @@
 <meta http-equiv="expires" content="-1">
 <meta name=viewport content="width=device-width, initial-scale=1.0,
 minimum-scale=0.5 maximum-scale=1.0">
-<title>Index</title>
-<!-- Include the monkshu framework -->
-<script type="text/javascript" src="/framework/js/$$.js"></script>
-<!-- And off we go ... -->
-<script type="text/javascript">$$.boot(new URL("./",
-window.location));</script>
+<title>Agenda</title>
+
+<script type="module">
+
+import { agenda } from
+"./js/lib/agenda.mjs";
+agenda.LoadTasks();
+
+</script>
+
+
 </head>
+<body>
+<script>
+
+
+</script>
+	
+<p id ='info'>TASKS WILL LOAD HERE</p>
+
+
+</body>
+
+
 </html>
